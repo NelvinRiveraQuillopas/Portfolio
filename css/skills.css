@@ -1,0 +1,56 @@
+body {
+  background-image: url("../image/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.mainform {
+  background: rgba(144, 76, 175, 0.3);
+  border: 1px solid rgb(48, 31, 88);
+  padding: 35px;
+  height: 100%;
+  width: 85%;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+}
+
+.content {
+  border: 1px solid blueviolet;
+  height: 90%;
+  width: 80%;
+  background-color: blueviolet;
+}
+
+.divTable {
+  display: table;
+  width: 80%;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+}
+.divTableCell {
+  border: 0px solid #999999;
+  display: table-cell;
+  padding: 3px;
+  color: white;
+  width: 16.66%;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}

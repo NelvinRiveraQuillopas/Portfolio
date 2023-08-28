@@ -1,0 +1,64 @@
+/*>
+body {
+  background-image: url("../image/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+*/
+.col {
+  column-count: 5;
+  border: 1px solid rgb(255, 255, 255);
+  width: 500px;
+}
+.colname {
+  padding: 0%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+  width: 80px;
+  height: fit-content;
+}
+.content {
+  border: 1px solid blueviolet;
+  height: 90%;
+  width: 80%;
+  background-color: blueviolet;
+}
+h1 {
+  color: white;
+}
+
+.divTable {
+  display: table;
+  width: 80%;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+}
+.divTableCell {
+  border: 0px solid #999999;
+  display: table-cell;
+  padding: 3px;
+  color: white;
+  width: 16.66%;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}

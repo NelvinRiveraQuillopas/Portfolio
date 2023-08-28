@@ -1,0 +1,23 @@
+.container {
+  background-color: rgb(241, 235, 235);
+  border: 1px solid rgb(194, 17, 17);
+}
+.table {
+  border: 1px solid rgb(36, 151, 55);
+  display: table;
+  width: 100%;
+}
+.row {
+  display: table-row;
+  width: 100%;
+}
+.col {
+  border: 1px solid rgb(38, 36, 151);
+  width: 33%;
+  float: left;
+}
+.col {
+  border: 1px solid rgb(38, 36, 151);
+  width: 33%;
+  float: left;
+}
